@@ -1,0 +1,43 @@
+import { Meta, Preview, Props, Story } from "@storybook/addon-docs/blocks";
+import { Switch } from '../../src'
+
+
+<Meta title="Components/Switch" component={Switch} />
+
+# Switch
+
+Switches are the preferred way to adjust settings on mobile. The option that the switch controls, as well as the state it’s in, should be made clear from the corresponding inline label.
+
+## Unchecked
+
+<Preview>
+  <Story name="Unchecked">
+    <Switch>
+      Switch
+    </Switch>
+  </Story>
+</Preview>
+
+## Initially Checked
+<Preview>
+  <Story name="Checked">
+    <Switch checked>
+      Switch
+    </Switch>
+  </Story>
+</Preview>
+
+## Disabled
+<Preview>
+  <Story name="Disabled">
+    <>
+      <Switch disabled />
+      <div />
+      <Switch disabled initialChecked />
+    </>
+  </Story>
+</Preview>
+
+
+<Props of={Switch} />
+

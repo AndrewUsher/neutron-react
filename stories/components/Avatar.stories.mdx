@@ -1,0 +1,59 @@
+import { Meta, Preview, Props, Story } from "@storybook/addon-docs/blocks";
+import { Avatar } from '../../src'
+
+<Meta title="Components/Avatar" />
+
+# Avatar
+
+Avatars represent a user or a team.
+
+## Usage
+
+```js
+import { Avatar } from '@drewster/neutron-react'
+```
+
+## Props
+
+<Props of={Avatar} />
+
+## Rounded
+
+<Preview>
+  <Story name="rounded">
+    <Avatar src="https://zeit.co/api/www/avatar/?u=evilrabbit&s=160s" />
+  </Story>
+</Preview>
+
+## Square
+
+<Preview>
+  <Story name="square">
+    <Avatar
+      src="https://zeit.co/api/www/avatar/?u=evilrabbit&s=160s"
+      isSquare
+    />
+  </Story>
+</Preview>
+
+## Text
+
+<Preview>
+  <Story name="text rounded">
+    <Avatar
+      text="AU"
+    />
+  </Story>
+</Preview>
+
+## Text Square
+
+<Preview>
+  <Story name="text square">
+    <Avatar
+      text="AU"
+      isSquare
+    />
+  </Story>
+</Preview>
+

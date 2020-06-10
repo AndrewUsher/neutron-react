@@ -1,0 +1,58 @@
+
+import { Meta, Preview, Props, Story } from "@storybook/addon-docs/blocks";
+import { Button } from '../../src'
+import { createButtonDemo } from '../../src/utils/createButtonDemo'
+
+<Meta title="Components/Buttons" component={Button} />
+
+
+# Buttons
+
+Buttons allow users to take actions, and make choices, with a single tap
+
+## Usage
+
+Buttons communicate actions that users can take. They are typically placed throughout your UI, in places like:
+
+- Dialogs
+- Modal windows
+- Forms
+- Cards
+- Toolbars
+
+### Text Labels
+
+Text buttons and contained buttons use text labels, which describe the action that will occur if a user taps a button. If a text label is not used, an icon should be present to signify what the button does.
+
+By default Neutron uses capitalized button text labels (for languages that have capitalization). This is to distinguish the text label from surrounding text. If a text button does not use capitalization for button text, find another characteristic to distinguish it such as color, size, or placement.
+
+### Filled Buttons
+
+Filled buttons are high-emphasis, distinguished by their use of elevation and fill. They contain actions that are primary to your app.
+
+<Story name="filled buttons">
+  {createButtonDemo()}
+</Story>
+
+### Soft Buttons
+
+<Story name="soft buttons">
+  {createButtonDemo({ soft: true })}
+</Story>
+
+### Outlined Buttons
+
+<Story name="outlined buttons">
+  {createButtonDemo({ outline: true })}
+</Story>
+
+
+### Rounded Buttons
+
+<Story name="rounded buttons">
+  {createButtonDemo({ rounded: true })}
+</Story>
+
+## Button Props
+
+<Props of={Button} />
