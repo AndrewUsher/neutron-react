@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/AndrewUsher/neutron-react/compare/v1.0.0...v1.1.0) (2020-08-14)
+
+
+### Features
+
+* add babel cli ([01cd994](https://github.com/AndrewUsher/neutron-react/commit/01cd99497628979bfe3869811067b44620179ebd))
+* add standard-version ([792017f](https://github.com/AndrewUsher/neutron-react/commit/792017f37b8602d93bd93e9d0f498920467f6da1))
+
+
+### Bug Fixes
+
+* **package:** update package name ([2c708c6](https://github.com/AndrewUsher/neutron-react/commit/2c708c653743a5b90f7df0e47049558421a9260d))
+
 ## 1.0.0 (2020-08-14)
 
 
