@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-var-requires */
 const path = require('path')
 
 module.exports = {
@@ -10,7 +11,7 @@ module.exports = {
           path.resolve(__dirname, '../src'),
           path.resolve(__dirname, '../stories')
         ]
-      },
+      }
     },
     '@storybook/addon-actions',
     '@storybook/addon-links',
