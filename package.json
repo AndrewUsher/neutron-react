@@ -39,7 +39,7 @@
     "@types/lodash.throttle": "^4.1.6",
     "@types/styled-system": "^5.1.9",
     "lodash.throttle": "4.1.1",
-    "polished": "3.6.5",
+    "polished": "3.6.6",
     "styled-system": "^5.1.5"
   },
   "scripts": {
