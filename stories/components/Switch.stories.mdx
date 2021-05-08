@@ -1,4 +1,4 @@
-import { Meta, Preview, Props, Story } from "@storybook/addon-docs/blocks";
+import { Meta, Canvas, ArgsTable, Story } from "@storybook/addon-docs/blocks";
 import { Switch } from '../../src'
 
 
@@ -10,25 +10,25 @@ Switches are the preferred way to adjust settings on mobile. The option that the
 
 ## Unchecked
 
-<Preview>
+<Canvas>
   <Story name="Unchecked">
     <Switch>
       Switch
     </Switch>
   </Story>
-</Preview>
+</Canvas>
 
 ## Initially Checked
-<Preview>
+<Canvas>
   <Story name="Checked">
     <Switch checked>
       Switch
     </Switch>
   </Story>
-</Preview>
+</Canvas>
 
 ## Disabled
-<Preview>
+<Canvas>
   <Story name="Disabled">
     <>
       <Switch disabled />
@@ -36,8 +36,8 @@ Switches are the preferred way to adjust settings on mobile. The option that the
       <Switch disabled initialChecked />
     </>
   </Story>
-</Preview>
+</Canvas>
 
 
-<Props of={Switch} />
+<ArgsTable of={Switch} />
 

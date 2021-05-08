@@ -1,26 +1,26 @@
-import { Meta, Preview, Props, Story } from "@storybook/addon-docs/blocks";
+import { Meta, Canvas, ArgsTable, Story } from "@storybook/addon-docs/blocks";
 import { withA11y } from '@storybook/addon-a11y'
 import { Input } from '../../src'
 
 
 <Meta title="Components/Input" component={Input} decorators={[withA11y]} />
 
-<Preview>
+<Canvas>
   <Story name="normal">
     <Input type="text" />
   </Story>
-</Preview>
+</Canvas>
 
-<Preview>
+<Canvas>
   <Story name="tooltip">
     <Input type="text" tooltip="tooltip message"/>
   </Story>
-</Preview>
+</Canvas>
 
 
-<Preview>
+<Canvas>
   <Story name="error">
     <Input type="text" tooltip="tooltip message" error="Please enter a valid email" />
   </Story>
-</Preview>
+</Canvas>
 
