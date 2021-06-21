@@ -2,6 +2,7 @@ import * as React from 'react'
 import styled from 'styled-components'
 
 const defaultProps = {
+  alt: '' as string,
   className: '' as string,
   isSquare: false as boolean,
   src: '' as string,

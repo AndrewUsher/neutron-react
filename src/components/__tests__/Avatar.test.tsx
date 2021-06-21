@@ -1,14 +1,15 @@
 import * as React from 'react'
+import '@testing-library/jest-dom/extend-expect'
 import { render } from '@testing-library/react'
 import { Avatar, ThemeProvider } from '../../'
 
 describe('Avatar', () => {
   test('renders image', () => {
-    const { debug } = render(
+    const { getByAltText } = render(
       <ThemeProvider>
-        <Avatar src="http://placekitten.com/200/300" />
+        <Avatar src="http://placekitten.com/200/300" alt="test" />
       </ThemeProvider>
     )
-    debug()
+    expect(getByAltText('test')).toBeInTheDocument()
   })
 })
