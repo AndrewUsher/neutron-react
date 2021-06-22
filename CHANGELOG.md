@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/AndrewUsher/neutron-react/compare/v1.1.0...v1.2.0) (2021-06-22)
+
+
+### Features
+
+* add testing npm scripts ([74c5aa4](https://github.com/AndrewUsher/neutron-react/commit/74c5aa48f8709015cf9285d55ca6184107f6860d))
+
+
+### Bug Fixes
+
+* **deps:** update dependency polished to v3.6.6 ([87195ac](https://github.com/AndrewUsher/neutron-react/commit/87195acf3ce0e26e4217ff3efd496cd5530aa654))
+* **deps:** update dependency polished to v4.1.3 ([429489d](https://github.com/AndrewUsher/neutron-react/commit/429489d7b84683265798f754c7cdeb74cfd67093))
+
 ## [1.1.0](https://github.com/AndrewUsher/neutron-react/compare/v1.0.0...v1.1.0) (2020-08-14)
 
 
