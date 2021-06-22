@@ -46,7 +46,9 @@
     "lint": "eslint .storybook/ ./src",
     "lint:fix": "yarn lint --fix",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "test": "jest",
+    "test:coverage": "yarn test --coverage"
   },
   "peerDependencies": {
     "react": ">=16.8.0",
