@@ -43,8 +43,10 @@
     "styled-system": "^5.1.5"
   },
   "scripts": {
+    "build": "babel src --out-dir dist --ignore \"src/**/*.test.tsx\",\"src/**/*.test.ts\" --extensions \".js,.ts,.jsx,.tsx\"",
     "lint": "eslint .storybook/ ./src",
     "lint:fix": "yarn lint --fix",
+    "prebuild": "rm -rf dist",
     "storybook": "start-storybook -p 6006",
     "storybook-docs": "start-storybook --docs --no-manager-cache",
     "build-storybook": "build-storybook",
