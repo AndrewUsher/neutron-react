@@ -1,7 +1,6 @@
 import * as React from 'react'
 import { DefaultTheme, ThemeProvider as StyledThemeProvider } from 'styled-components'
 
-// @ts-ignore
 const breakpoints: any = ['0px', '600px', '960px', '1280px', '1920px']
 
 breakpoints.xs = breakpoints[0]
