@@ -20,7 +20,7 @@ yarn add @drewster/neutron-react
 
 ## Documentation
 
-Check out the [documentation website](https://neutron-react.vercel.app)!
+Check out the [documentation website](https://neutron-react.vercel.app)
 
 
 ## Contributing
